@@ -18,11 +18,12 @@ nav a:hover {
 }
 
 
-body {
+h2 {
     font-family: 'Script';
 }
-
-
+h3 {
+    font-family: 'Script';
+}
 p {
     font-family: "New Spirit Regular";
 }
