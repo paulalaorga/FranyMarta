@@ -1,313 +1,6 @@
-
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: 100% inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-/* article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote::before,
-blockquote::after,
-q::before,
-q::after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 html {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  min-width: 320px;
-  overflow-x: auto;
+  -webkit-text-size-adjust: 100%;
 }
-body {
-  font-family: 'circular', serif;
-  font-size: 16px;
-  line-height: 1.42857143;
-  color: #0e0e0e;
-  background-color: #ffffff;
-}
-input,
-button,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  outline: none;
-}
-a {
-  color: blue;
-  text-decoration: underline;
-}
-a:hover,
-a:focus {
-  color: #4a4a4a;
-  text-decoration: underline;
-}
-[role='button'] {
-  cursor: pointer;
-}
-.zui-svg-icon {
-  width: auto;
-}
-.font-weight-light {
-  font-weight: 100;
-}
-.font-weight-regular {
-  font-weight: 400;
-}
-.font-weight-bold {
-  font-weight: 700;
-}
-.font-family-serif {
-  font-family: 'new-spirit', serif;
-}
-.font-family-script {
-  font-family: 'Sakura Regular', 'Georgia', serif;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-.h7 {
-  font-family: 'circular', serif;
-  font-weight: 600;
-  line-height: 1.1;
-  color: #21201f;
-}
-h1 small,
-h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small,
-.h1 small,
-.h2 small,
-.h3 small,
-.h4 small,
-.h5 small,
-.h6 small,
-.h7 small,
-h1 .small,
-h2 .small,
-h3 .small,
-h4 .small,
-h5 .small,
-h6 .small,
-.h1 .small,
-.h2 .small,
-.h3 .small,
-.h4 .small,
-.h5 .small,
-.h6 .small,
-.h7 .small {
-  font-weight: 400;
-  line-height: 1;
-}
-h1.font-family-script,
-h2.font-family-script,
-h3.font-family-script,
-.h1.font-family-script,
-.h2.font-family-script,
-.h3.font-family-script,
-h1 > .font-family-script,
-h2 > .font-family-script,
-h3 > .font-family-script,
-.h1 > .font-family-script,
-.h2 > .font-family-script,
-.h3 > .font-family-script {
-  font-size: 150%;
-}
-h1,
-.h1 {
-  font-family: 'new-spirit', serif;
-  font-size: 32px;
-  font-weight: 500;
-}
-h2,
-.h2 {
-  font-size: 30px;
-  letter-spacing: 0;
-  font-weight: 400;
-}
-h3,
-.h3 {
-  font-size: 24px;
-  letter-spacing: 0.2px;
-  font-weight: 400;
-}
-h4,
-.h4 {
-  font-size: 18px;
-  letter-spacing: 0;
-  font-weight: 400;
-}
-h5,
-.h5 {
-  font-size: 14px;
-  letter-spacing: 1.2px;
-  font-weight: 600;
-}
-h6,
-.h6 {
-  font-size: 12px;
-  letter-spacing: 1.2px;
-  font-weight: 600;
-}
-p,
-.p {
-  margin: 0 0 11px;
-  font-size: 16px;
-  font-weight: 400;
-  color: #0e0e0e;
-}
-p small,
-.p small,
-p .small,
-.p .small {
-  font-size: 12px;
-}
-@media (max-width: 992px) {
-  p.responsive,
-  .p.responsive {
-    font-size: 18px;
-  }
-  p.responsive small,
-  .p.responsive small,
-  p.responsive .small,
-  .p.responsive .small {
-    font-size: 14px;
-  }
-}
-.mobile-text p,
-.mobile-text .p {
-  font-size: 18px;
-}
-.mobile-text small,
-.mobile-text .small {
-  font-size: 14px;
-}
-
-
- */
-/* E M P I E Z A  M I  C O D I G O */
 
 * {
     box-sizing: border-box;
@@ -323,8 +16,26 @@ body {
     
   }
 
-  div {
+div {
     display: block;
+  }
+
+header {
+    background-color: #F1F0F0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 500;  
+    position: -webkit-sticky;
+  /*   padding-top: 20px;
+    padding-bottom: 12px; */
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    font: 100% inherit;
+    vertical-align: baseline;
+/*     margin-block-start: 1em;
+    margin-block-end: 1em; */
+
   }
 
 h1 {
@@ -337,51 +48,48 @@ h1 {
     letter-spacing: 5px;
     font-size: 40px;
     display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-
-    }
+  }
 
 nav {
     background-color: #F1F0F0;
     margin-left: auto;
     margin-right: auto;
-    z-index: 400;
-    position: sticky;
-    top: 0;
-    padding-top: 20px;
-    padding-bottom: 12px;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    overflow-x: hidden;
-    padding: 0;
-    text-align: center;
-    border: 0;
-    font: 100% inherit;
-    vertical-align: baseline;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
+  }
 
 nav a {
-    text-decoration: none;
     font-family: "Libre Baskerville";
     color: rgb(81, 84, 163);
     font-weight: 400;
-    text-transform: none;
     line-height: 1.63;
     letter-spacing: normal;
     font-size: 16px;
+    text-transform: none;
     margin: 0 12px;
-    padding: 8px 0;
+/*     padding: 8px 0; */
     position: relative;
-}
+    text-align: center;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: transparent;
+
+  }
+
+nav a:hover {
+   text-decoration: underline;
+   cursor: pointer;
+   
+  }
+
+  main {
+    background-image: url('./Fotos/background.jpeg');
+    position: relative;
+    overflow: clip;
+    background-color: #F4EFE9;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: inherit;
+     }
 
 #container img {
     width: 550px;
@@ -389,13 +97,13 @@ nav a {
     z-index: 10;
     top: -40px;
     right: -40px;
-}
+    }
 
-#Home {
-    background-color: rgb(244, 239, 233);
+#home {
+    /* background-color: rgb(244, 239, 233);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: inherit;
+    background-attachment: inherit; */
     max-width: 1020px;
     margin-left: auto;
     margin-right: auto;
@@ -404,7 +112,7 @@ nav a {
     padding-top: 65px;
     padding-right: 32px;
     padding-left: 32px;
-}
+  }
 
 #container {
     display: flex;
@@ -430,9 +138,9 @@ nav a {
     -webkit-box-align: center;
     align-items: center;
     -webkit-box-pack: center;
-}
+  }
 
-#Card {
+#card {
     padding-top: 90px;
     padding-bottom: 120px;
     max-width: 100%;
@@ -441,9 +149,9 @@ nav a {
     text-align: center;
     margin: 0px;
     position: relative;
-}
+  }
 
-#Card h2 {
+#card h2 {
     font-family: "Homemade Apple";
     color: rgb(152, 94, 41);
     font-weight: 400;
@@ -460,7 +168,7 @@ nav a {
     text-align: center;
     width: 100%;
     overflow-wrap: anywhere;
-}
+  }
 
 h3 {
 
@@ -482,7 +190,7 @@ h3 {
     line-height: 2;
     letter-spacing: 5px;
     font-size: 35px;
-}
+  }
 
 p {
     font-family: "Libre Baskerville";
@@ -499,8 +207,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
-}
+  }
 
 img {
     margin-top: 80px;
@@ -511,4 +218,10 @@ img {
     aspect-ratio: 12 / 7;
     width: 100%;
     height: 100%;
-}
+  }
+
+  @font-face {
+    font-family: 'Libre Baskerville';
+    font-weight: 700;
+    src: url('https://d1tntvpcrzvon2.cloudfront.net/static-assets/fonts/LibreBaskerville-Bold.ttf');
+  }
