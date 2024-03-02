@@ -92,9 +92,14 @@ nav a {
   }
 
 nav a:hover {
-   text-decoration: underline;
    cursor: pointer;
-   
+   cursor: pointer;
+   border-bottom-width: 2px;
+   border-bottom-style: solid;
+   transition: linear;
+   padding-bottom: 5px;
+   transform: scaleX(1.1);
+   transition: transform 0.3s;
   }
 
   main {
