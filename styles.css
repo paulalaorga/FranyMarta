@@ -24,8 +24,7 @@ header {
     background-color: #F1F0F0;
     margin-left: auto;
     margin-right: auto;
-    z-index: 500;  
-    position: -webkit-sticky;
+    position: static;
   /*   padding-top: 20px;
     padding-bottom: 12px; */
     display: flex;
@@ -54,13 +53,29 @@ nav {
     background-color: #F1F0F0;
     margin-left: auto;
     margin-right: auto;
+    height: 50px;
+    position: sticky;
+    border-bottom: #F4EFE9;
+    border: 100px;
+    
   }
+#nav_container {
+  background-color: #F1F0F0;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  position: sticky;
+  border-bottom: #F4EFE9;
+  border: 100px;
+  padding-bottom: 12px;
+  z-index: 400;
+}
 
 nav a {
     font-family: "Libre Baskerville";
     color: rgb(81, 84, 163);
-    font-weight: 400;
     line-height: 1.63;
+    font-weight: lighter;
     letter-spacing: normal;
     font-size: 16px;
     text-transform: none;
@@ -72,6 +87,7 @@ nav a {
     box-sizing: border-box;
     text-decoration: none;
     background-color: transparent;
+    
 
   }
 
@@ -89,6 +105,8 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-attachment: inherit;
+    background-position: center;
+
      }
 
 #container img {
@@ -218,6 +236,6 @@ img {
 
   @font-face {
     font-family: 'Libre Baskerville';
-    font-weight: 700;
+    font-weight: 400;
     src: url('https://d1tntvpcrzvon2.cloudfront.net/static-assets/fonts/LibreBaskerville-Bold.ttf');
   }
